@@ -56,6 +56,7 @@ const routes: Array<RouteRecordRaw> = [
     children: [
       {
         path: '/',
+        name: 'community',
         component: () => import('@/pages/community/home.vue')
       },
       {
